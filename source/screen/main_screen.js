@@ -31,7 +31,7 @@ export default class IntroScreen extends React.Component<Props> {
             this.setState({
               
             });
-          }
+          };
   }
   
   requestGET = async => {
@@ -51,7 +51,7 @@ export default class IntroScreen extends React.Component<Props> {
             this.setState({
               
             });
-          }
+          };
   }
   
   componentWillMount() {}
