@@ -13,7 +13,7 @@ export default class IntroScreen extends React.Component<Props> {
     }; // Initialize State
   }
   
-  requestPOST = async => {
+  requestPOST = async() => {
     const requestURL = "http://www.website.com";
   
     const requestHeaders = {
@@ -34,7 +34,7 @@ export default class IntroScreen extends React.Component<Props> {
           };
   }
   
-  requestGET = async => {
+  requestGET = async() => {
     const requestURL = "http://www.website.com";
                 
     const requestHeaders = {
