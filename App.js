@@ -1,5 +1,6 @@
 import React from 'react';
 import {createAppContainer} from 'react-navigation';
+import {createStackNavigator, createBottomTabNavigator} from 'react-navigation-stack';
 import MainScreen from './source/screen/main_screen.js';
 
 const stackNavigator = createStackNavigator(
@@ -36,6 +37,32 @@ const stackNavigator = createStackNavigator(
         color: '#333',
       },
     }),
+  },
+);
+
+const bottomTabNavigator = createBottomTabNavigator(
+  {
+    RouteName: StackNameSpace,
+    ...
+  },
+  {
+    navigationOptions: ({ navigation }) => ({
+      tabBarIcon: () => {
+        const { routeName } = navigation.state;
+        if (routeName === 'Home') {
+          return <Icon name="home" />;
+        } else if (routeName === 'Search') {
+          return <Icon name="search" />;
+        } else if (routeName === 'Notifications') {
+          return (
+            <IconBadge showNumber>
+              <Icon name="notifications" />
+            </IconBadge>
+          );
+        }
+      },
+    }),
+    initialRouteName: 'StartupScreenNamespace',
   },
 );
 
