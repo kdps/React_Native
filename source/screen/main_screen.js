@@ -10,16 +10,20 @@ export default class IntroScreen extends React.Component<Props> {
     this.state = {}; // Initialize State
   }
   
+  componentWillMount() {}
+
+  componentWillUnmount() {}
+
+  componentWillReceiveProps(nextProps) {}
+
+  componentWillUpdate(nextProps, nextState) {}
+
   componentDidCatch(error, info) {}
   
-  // componentDidUpdate(prevProps, prevState, snapshot)
-  componentDidUpdate() {}
+  componentDidUpdate(prevProps, prevState, snapshot) {}
   
   componentDidMount() {}
-  
-  componentWillUnmount() {}
-  
-  // Optional Function
+
   shouldComponentUpdate(nextProps, nextState) {}
   
   render() {
