@@ -7,7 +7,51 @@ export default class IntroScreen extends React.Component<Props> {
   constructor(props) {
     super(props);
     
-    this.state = {}; // Initialize State
+    this.state = {
+      requestBody: {
+      },
+    }; // Initialize State
+  }
+  
+  requestPOST = async => {
+    const requestURL = "http://www.website.com";
+  
+    const requestHeaders = {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      },
+      body: this.state.requestBody,
+    };
+
+    return fetch(requestURL, requestHeaders)
+          .then((response) => response.json())
+          .then((responseJson) => {
+            this.setState({
+              
+            });
+          }
+  }
+  
+  requestGET = async => {
+    const requestURL = "http://www.website.com";
+                
+    const requestHeaders = {
+      method: 'GET',
+      headers: {
+        Accept: 'application/json',
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+      },
+    };
+
+    return fetch(requestURL, requestHeaders)
+          .then((response) => response.json())
+          .then((responseJson) => {
+            this.setState({
+              
+            });
+          }
   }
   
   componentWillMount() {}
