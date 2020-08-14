@@ -54,6 +54,10 @@ export default class IntroScreen extends React.Component<Props> {
           };
   }
   
+  static getDerivedStateFromProps(props, state) {
+      return null;
+  }
+                
   componentWillMount() {}
 
   componentWillUnmount() {}
