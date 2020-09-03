@@ -7,6 +7,7 @@ this.props.navigation.navigate('NavigationName', {
 });
 
 # Child
+
 componentDidMount() {
   this.props.navigation.state.params.callback();
 }
