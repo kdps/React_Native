@@ -1,12 +1,22 @@
 ## Pretty well maded react-native plugins
 
+### Chart
+
 victory-native
+
+### Analytics
 
 sentry/react-native
 
+### Storage
+
 react-native-community/async-storage
 
+### Camera
+
 react-native-community/cameraroll
+
+## Et greta
 
 react-native-community/datetimepicker
 
