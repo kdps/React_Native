@@ -27,7 +27,7 @@ react-native-fast-image
 
 react-native-image-crop-picker
 
-## Et greta
+## Et creta
 
 react-native-community/datetimepicker
 
