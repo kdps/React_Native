@@ -1,3 +1,9 @@
+## Plugin Issues
+
+wuxudong/react-native-charts-wrapper
+
+https://github.com/wuxudong/react-native-charts-wrapper/issues/604
+
 ## Pretty well maded react-native plugins
 
 ### Chart
