@@ -6,6 +6,8 @@ wuxudong/react-native-charts-wrapper
 
 https://github.com/wuxudong/react-native-charts-wrapper/issues/604
 
+----
+
 #### react-native-htmlview
 
 https://github.com/jsdf/react-native-htmlview
