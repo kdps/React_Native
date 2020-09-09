@@ -12,6 +12,8 @@ https://github.com/wuxudong/react-native-charts-wrapper/issues/409
 
 yarn add @babel/runtime
 
+Or open workspace folder
+
 ----
 
 #### react-native-htmlview
