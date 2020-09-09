@@ -1,3 +1,7 @@
+#### database is locked Possibly there are two concurrent builds running in the same filesystem location.
+
+Clean bulid folder
+
 #### duplicate symbols for architecture arm64
 
 pod deintegrate
