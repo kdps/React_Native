@@ -4,7 +4,17 @@ wuxudong/react-native-charts-wrapper
 
 https://github.com/wuxudong/react-native-charts-wrapper/issues/604
 
+### Not Recommended Plugins
+
+https://github.com/jsdf/react-native-htmlview
+
+-- CSS Style Not Working --
+
 ## Pretty well maded react-native plugins
+
+### WebView
+
+https://github.com/danrigsby/react-native-web-container
 
 ### Chart
 ----
