@@ -6,6 +6,12 @@ wuxudong/react-native-charts-wrapper
 
 https://github.com/wuxudong/react-native-charts-wrapper/issues/604
 
+Charts/Charts.modulemap' not found
+
+https://github.com/wuxudong/react-native-charts-wrapper/issues/409
+
+yarn add @babel/runtime
+
 ----
 
 #### react-native-htmlview
