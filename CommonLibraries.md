@@ -16,6 +16,12 @@ Or open workspace folder
 
 ----
 
+#### Firebase
+
+https://github.com/afrihost/react-native-firebase-push-notifications
+
+rnfirebase is not working on getInitialNotification, onNotificationOpenedApp
+
 #### react-native-htmlview
 
 https://github.com/jsdf/react-native-htmlview
