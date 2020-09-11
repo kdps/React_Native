@@ -1,3 +1,3 @@
-if(navigator.appVersion.includes('Android')){
+if (navigator.appVersion.includes('Android')) {
 } else {
 }
