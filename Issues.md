@@ -21,7 +21,4 @@ Just realized that according to the docs, these functions only work when sending
 SIGABRT: -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:] > -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:]:326: failed assertion `resourceOptions (0x0) must match backing buffer resource options (0x20).'
  > : failed assertion `%s'
  
- 
- not sure it will help or not i think you should add this props supportedOrientations={['portrait', 'landscape']} in your Modal
- 
- https://github.com/facebook/react-native/issues/13951
+check componentWillUnmount event
