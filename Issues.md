@@ -26,3 +26,7 @@ check componentWillUnmount event
 #### XCode 14 Image not showing
 
 https://github.com/hsource/react-native/pull/2
+
+#### react-native-modal-datetime-picker
+
+https://github.com/mmazzarolo/react-native-modal-datetime-picker/pull/474
