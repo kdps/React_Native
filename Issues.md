@@ -22,3 +22,7 @@ SIGABRT: -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:] > -[MTLD
  > : failed assertion `%s'
  
 check componentWillUnmount event
+
+#### XCode 14 Image not showing
+
+https://github.com/hsource/react-native/pull/2
