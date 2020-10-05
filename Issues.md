@@ -1,3 +1,17 @@
+#### cocoapods could not find compatible versions for pod reactcommon/callinvoker
+
+https://fantashit.com/rn-0-62-pod-repo-update-error/
+
+I solved this issue (version 0.63) by changing the line in the Podfile from
+
+pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
+
+to
+
+pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
+
+
+
 #### IOS 14 Firebase Crash
 
 https://github.com/invertase/react-native-firebase/issues/3944
