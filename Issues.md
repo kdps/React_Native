@@ -1,3 +1,13 @@
+# Android
+
+### annotation does not exist 
+
+https://github.com/facebook/react-native-fbsdk/issues/567
+
+npx jetify
+
+# IOS
+
 ### cocoapods could not find compatible versions for pod reactcommon/callinvoker
 ----
 
