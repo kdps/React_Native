@@ -1,5 +1,9 @@
 # Android
 
+### Native module ~~ tried to override ~~
+
+https://stackoverflow.com/questions/41846452/how-to-set-canoverrideexistingmodule-true-in-react-native-for-android-apps/63438974#63438974
+
 ### annotation does not exist 
 
 https://github.com/facebook/react-native-fbsdk/issues/567
