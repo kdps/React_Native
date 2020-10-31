@@ -1,5 +1,12 @@
 # Android
 
+### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
+
+Package.json
+
+"@react-native-async-storage/async-storage": "^1.13.1",
+"@react-native-community/async-storage": "1.11.0", <-- Remove it
+
 ### Native module ~~ tried to override ~~
 
 https://stackoverflow.com/questions/41846452/how-to-set-canoverrideexistingmodule-true-in-react-native-for-android-apps/63438974#63438974
