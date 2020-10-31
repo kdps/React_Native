@@ -1,3 +1,7 @@
+# Sentry
+
+Cannot remove sentry fucking shit
+
 # Android
 
 ### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
