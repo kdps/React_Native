@@ -4,6 +4,16 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+
+https://github.com/react-native-maps/react-native-maps/issues/2924
+
+I found a solution. Not sure if it's a long term one, but this will let you guys work until a permanent solution is found.
+Just clear your cash: npm start -- --reset-cache
+And restart the project.
+It worked for me.
+FYI, I didn't eject my project yet.
+
 ### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
 
 Package.json
