@@ -6,8 +6,6 @@ errors on iOS but not Android.
 AsyncStorage.getAllKeys().then(AsyncStorage.multiRemove)
 errors on Android but not iOS.
 
-###
-
-- ERROR | attributes: Missing required attribute `homepage`.
+### - ERROR | attributes: Missing required attribute `homepage`.
 
 Fucking shit
