@@ -8,8 +8,10 @@ Package.json
 Async Storage has moved to new organization: https://github.com/react-native-async-storage/async-storage
 ```
 
+```JSON
 "@react-native-async-storage/async-storage": "^1.13.1",
 "@react-native-community/async-storage": "1.11.0", <-- Remove it
+```
 
 ### Native module ~~ tried to override ~~
 
