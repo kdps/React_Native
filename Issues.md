@@ -4,6 +4,14 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### React Native : Error: Duplicate resources - Android
+
+```bash
+rm -rf ./android/app/src/main/res/drawable-*
+
+rm -rf ./android/app/src/main/res/raw
+```
+
 ### Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
 
 https://github.com/react-native-maps/react-native-maps/issues/2924
