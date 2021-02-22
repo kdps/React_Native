@@ -62,6 +62,11 @@ pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/call
 
 
 
+### 'React/RCTBridgeModule.h' file not found
+
+https://stackoverflow.com/questions/65696412/react-native-ios-build-error-react-rctbridgemodule-h-file-not-found-with-react
+
+
 ### IOS 14 Firebase Crash
 ----
 
