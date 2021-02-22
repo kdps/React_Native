@@ -2,6 +2,12 @@
 
 # Make Bundle
 
+IOS
+
+```bash
+react-native bundle --entry-file='index.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios'
+```
+
 Android 
 
 ```bash
