@@ -47,6 +47,11 @@ npx jetify
 
 # IOS
 
+### Error for only archive
+
+Target - Build Settings - Architectures - Build Active Architecture Only [Release] YES
+
+
 ### cocoapods could not find compatible versions for pod reactcommon/callinvoker
 ----
 
