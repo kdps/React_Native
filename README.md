@@ -1,5 +1,12 @@
 # React_Native
 
+
+# Run in Production
+
+```bash
+npx react-native run-ios --configuration Release --device
+```
+
 # Make Bundle
 
 IOS
