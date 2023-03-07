@@ -1,5 +1,10 @@
 # React_Native
 
+# Active Debug Menu without Shake
+
+```bash
+adb shell input keyevent KEYCODE_MENU
+```
 
 # Run in Production
 
