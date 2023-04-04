@@ -10,6 +10,8 @@ adb shell input keyevent KEYCODE_MENU
 
 ```bash
 npx react-native run-ios --configuration Release --device
+
+react-native run-android --variant=release
 ```
 
 # Make Bundle
