@@ -4,6 +4,12 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty
+
+Project Structure > Project > Change version to 4.2.2 
+
+https://developer.android.com/studio/releases/gradle-plugin?hl=ko
+
 ### React Native : Error: Duplicate resources - Android
 
 ```bash
