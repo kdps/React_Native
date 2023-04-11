@@ -8,6 +8,10 @@ Cannot remove sentry fucking shit
 
 ```bash
 set NODE_OPTIONS=--openssl-legacy-provider
+
+nvm install 16.13.0
+
+nvm alias default 16.13.0
 ```
 
 ### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty
