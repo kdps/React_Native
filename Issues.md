@@ -4,6 +4,12 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native
+
+```bash
+set NODE_OPTIONS=--openssl-legacy-provider
+```
+
 ### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty
 
 Project Structure > Project > Change version to 4.2.2 
