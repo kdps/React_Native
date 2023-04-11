@@ -4,6 +4,20 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### Could not find me.relex:photodraweeview:1.1.3
+
+```bash
+def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
+
+configurations.all {
+    resolutionStrategy {
+        force "com.facebook.react:react-native:" + REACT_NATIVE_VERSION
+        
+        force 'me.relex:photodraweeview:2.1.0'
+    }
+}
+```
+
 ### Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native
 
 ```bash
