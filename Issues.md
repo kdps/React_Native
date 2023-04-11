@@ -2,6 +2,14 @@
 
 Cannot remove sentry fucking shit
 
+# Javascript
+
+### Support for the experimental syntax 'decorators-legacy' isn't currently enabled
+
+```bash
+yarn add @babel/plugin-proposal-decorators
+```
+
 # Android
 
 ### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB
