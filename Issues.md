@@ -4,6 +4,16 @@ Cannot remove sentry fucking shit
 
 # Android
 
+### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB
+
+```bash
+rm -rf node_modules
+yarn install
+cd android
+./gradlew clean
+./gradlew assembleDebug
+```
+
 ### Could not find me.relex:photodraweeview:1.1.3
 
 ```bash
