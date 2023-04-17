@@ -5,6 +5,7 @@ Cannot remove sentry fucking shit
 # Javascript
 
 ### Support for the experimental syntax 'decorators-legacy' isn't currently enabled
+----
 
 ```bash
 yarn add @babel/plugin-proposal-decorators
@@ -28,10 +29,12 @@ append to .babelrc or babel.config.js
 # Android
 
 ### 'RNTimePicker' could not be found
+----
 
 remove fucking `react-native-modal-datetime-picker` package
 
 ### Unresolved reference `resolveView` (Vision-Camera)
+----
 
 findCameraView
 
@@ -90,6 +93,7 @@ fun findCameraViewById(viewId: Int): CameraView {
 ```
 
 ### Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.
+----
 
 Update your kotlin version 1.6.0+
 ```text
@@ -97,6 +101,7 @@ classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0+"
 ```
 
 ### Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module 
+----
 
 gradle-wrapper.properties
 
@@ -105,6 +110,7 @@ org.gradle.jvmargs=--add-opens java.base/java.io=ALL-UNNAMED
 ```
 
 ### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB
+----
 
 ```bash
 rm -rf node_modules
@@ -115,6 +121,7 @@ cd android
 ```
 
 ### Could not find me.relex:photodraweeview:1.1.3
+----
 
 ```bash
 def REACT_NATIVE_VERSION = new File(['node', '--print',"JSON.parse(require('fs').readFileSync(require.resolve('react-native/package.json'), 'utf-8')).version"].execute(null, rootDir).text.trim())
@@ -129,6 +136,7 @@ configurations.all {
 ```
 
 ### Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native
+----
 
 ```bash
 set NODE_OPTIONS=--openssl-legacy-provider
@@ -139,12 +147,14 @@ nvm alias default 16.13.0
 ```
 
 ### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty
+----
 
 Project Structure > Project > Change version to 4.2.2 
 
 https://developer.android.com/studio/releases/gradle-plugin?hl=ko
 
 ### React Native : Error: Duplicate resources - Android
+----
 
 ```bash
 rm -rf ./android/app/src/main/res/drawable-*
@@ -153,6 +163,7 @@ rm -rf ./android/app/src/main/res/raw
 ```
 
 ### Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+----
 
 https://github.com/react-native-maps/react-native-maps/issues/2924
 
@@ -165,6 +176,7 @@ FYI, I didn't eject my project yet.
 ```
 
 ### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
+----
 
 Package.json
 
@@ -178,10 +190,12 @@ Async Storage has moved to new organization: https://github.com/react-native-asy
 ```
 
 ### Native module ~~ tried to override ~~
+----
 
 https://stackoverflow.com/questions/41846452/how-to-set-canoverrideexistingmodule-true-in-react-native-for-android-apps/63438974#63438974
 
 ### annotation does not exist 
+----
 
 https://github.com/facebook/react-native-fbsdk/issues/567
 
@@ -190,12 +204,14 @@ npx jetify
 # IOS
 
 ### “React/RCTEventDispatcherProtocol.h“ file not found
+----
 
 ```ObjectiveC
 "React/RCTEventDispatcherProtocol.h" => "React/RCTEventDispatcher.h"
 ```
 
 ### Error for only archive
+----
 
 Target - Build Settings - Architectures - Build Active Architecture Only [Release] YES
 
@@ -215,6 +231,7 @@ pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/call
 ```
 
 ### 'React/RCTBridgeModule.h' file not found
+----
 
 https://stackoverflow.com/questions/65696412/react-native-ios-build-error-react-rctbridgemodule-h-file-not-found-with-react
 
