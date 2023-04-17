@@ -72,11 +72,13 @@ rm -rf ./android/app/src/main/res/raw
 
 https://github.com/react-native-maps/react-native-maps/issues/2924
 
+```Text
 I found a solution. Not sure if it's a long term one, but this will let you guys work until a permanent solution is found.
 Just clear your cash: npm start -- --reset-cache
 And restart the project.
 It worked for me.
 FYI, I didn't eject my project yet.
+```
 
 ### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
 
@@ -107,12 +109,12 @@ npx jetify
 
 Target - Build Settings - Architectures - Build Active Architecture Only [Release] YES
 
-
 ### cocoapods could not find compatible versions for pod reactcommon/callinvoker
 ----
 
 https://fantashit.com/rn-0-62-pod-repo-update-error/
 
+```Text
 I solved this issue (version 0.63) by changing the line in the Podfile from
 
 pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
@@ -120,8 +122,7 @@ pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommo
 to
 
 pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
-
-
+```
 
 ### 'React/RCTBridgeModule.h' file not found
 
@@ -177,14 +178,18 @@ Disk space is not enought
 ### Firebase
 ----
 
+```Text
 Just realized that according to the docs, these functions only work when sending and receiving notifications via FCM, which is why you aren't seeing these work when sending them manually through APNS. This package will allow for leverage getInitialNotification and the other function: 
+```
 
 ### SIGABRT RCTModalHostViewController
 ----
 
+```Text
 SIGABRT: -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:] > -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:]:326: failed assertion `resourceOptions (0x0) must match backing buffer resource options (0x20).'
  > : failed assertion `%s'
- 
+```
+
 check componentWillUnmount event
 
 ### XCode 14 Image not showing
