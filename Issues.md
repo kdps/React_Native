@@ -28,6 +28,12 @@ append to .babelrc or babel.config.js
 
 # Android
 
+### BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61
+
+```bash
+distributionUrl => gradle-7.6-all.zip
+```
+
 ### 'RNTimePicker' could not be found
 ----
 
