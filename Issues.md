@@ -27,6 +27,10 @@ append to .babelrc or babel.config.js
 
 # Android
 
+### 'RNTimePicker' could not be found
+
+remove fucking `react-native-modal-datetime-picker` package
+
 ### Unresolved reference `resolveView` (Vision-Camera)
 
 findCameraView
