@@ -120,6 +120,12 @@ npx jetify
 
 # IOS
 
+### “React/RCTEventDispatcherProtocol.h“ file not found
+
+```ObjectiveC
+"React/RCTEventDispatcherProtocol.h" => "React/RCTEventDispatcher.h"
+```
+
 ### Error for only archive
 
 Target - Build Settings - Architectures - Build Active Architecture Only [Release] YES
