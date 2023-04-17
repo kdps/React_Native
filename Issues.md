@@ -5,7 +5,7 @@ Cannot remove sentry fucking shit
 # Javascript
 
 ### Support for the experimental syntax 'decorators-legacy' isn't currently enabled
-----
+--
 
 ```bash
 yarn add @babel/plugin-proposal-decorators
