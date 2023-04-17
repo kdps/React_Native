@@ -18,7 +18,7 @@ react-native run-android --variant=release
 
 # Make Bundle
 
-IOS
+## IOS
 
 OLD
 ```bash
@@ -30,7 +30,7 @@ NEW
 react-native bundle --entry-file ./index.js --platform ios --bundle-output ios/main.jsbundle --assets-dest ios
 ```
 
-Android 
+## Android 
 
 OLD
 ```bash
