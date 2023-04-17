@@ -27,6 +27,64 @@ append to .babelrc or babel.config.js
 
 # Android
 
+### Unresolved reference `resolveView`
+
+findCameraView
+
+```java
+private fun findCameraView(viewId: Int): CameraView {
+    Log.d(TAG, "Finding view $viewId...")
+    val ctx = reactApplicationContext
+    var view: CameraView? = null
+
+    try {
+      var manager = UIManagerHelper.getUIManager(ctx, viewId)
+      view = manager!!::class.members.firstOrNull{ it.name == "resolveView" }?.call(viewId) as CameraView?
+    } catch(e: Exception) {
+      //
+    }
+
+    if (view == null) {
+      try {
+        view = ctx?.currentActivity?.findViewById<CameraView>(viewId)
+      } catch(e: Exception) {
+        //
+      }
+    }
+
+    Log.d(TAG,  if (view != null) "Found view $viewId!" else "Couldn't find view $viewId!")
+    return view ?: throw ViewNotFoundError(viewId)
+}
+```
+
+findCameraViewById
+
+```java
+fun findCameraViewById(viewId: Int): CameraView {
+    Log.d(TAG, "Finding view $viewId...")
+    val ctx = mContext?.get()
+    var view: CameraView? = null
+
+    try {
+      var manager = UIManagerHelper.getUIManager(ctx, viewId)
+      view = manager!!::class.members.firstOrNull{ it.name == "resolveView" }?.call(viewId) as CameraView?
+    } catch(e: Exception) {
+      //
+    }
+
+    if (view == null) {
+      try {
+        view = ctx?.currentActivity?.findViewById<CameraView>(viewId)
+      } catch(e: Exception) {
+        //
+      }
+    }
+
+    Log.d(TAG,  if (view != null) "Found view $viewId!" else "Couldn't find view $viewId!")
+    return view ?: throw ViewNotFoundError(viewId)
+}
+```
+
 ### Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.
 
 Update your kotlin version 1.6.0+
