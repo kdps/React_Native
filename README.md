@@ -1,5 +1,7 @@
 # React_Native
 
+!do not use react-native.
+
 # Active Debug Menu without Shake
 
 ```bash
