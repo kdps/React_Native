@@ -27,7 +27,7 @@ append to .babelrc or babel.config.js
 
 # Android
 
-### Unresolved reference `resolveView`
+### Unresolved reference `resolveView` (Vision-Camera)
 
 findCameraView
 
