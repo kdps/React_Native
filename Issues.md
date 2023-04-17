@@ -27,6 +27,13 @@ append to .babelrc or babel.config.js
 
 # Android
 
+### Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.
+
+Update your kotlin version 1.6.0+
+```text
+classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0+"
+```
+
 ### Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module 
 
 gradle-wrapper.properties
