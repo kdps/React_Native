@@ -143,6 +143,17 @@ pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/call
 
 https://stackoverflow.com/questions/65696412/react-native-ios-build-error-react-rctbridgemodule-h-file-not-found-with-react
 
+```Text
+Check that I have React in my pods (pod 'React', :path => '../node_modules/react-native/'). If not, add it.
+
+Uninstall reinstall pods (pod deintegrate && pod clean && pod install in the ios folder, I believe the pod deintegrate command needs to be downloaded and isn't available by default)
+
+Go to scheme -> edit scheme -> build, delete the React(missing) using the 'minus' button. 
+
+Click on 'add' or a 'plus' button. Find React (should be in the Pods category) and add it. 
+
+Finally, make sure all boxes are ticked for React, and place it at the top of the list.
+```
 
 ### IOS 14 Firebase Crash
 ----
