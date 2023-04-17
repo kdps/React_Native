@@ -12,6 +12,14 @@ yarn add @babel/plugin-proposal-decorators
 
 # Android
 
+### Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module 
+
+gradle-wrapper.properties
+
+```bash
+org.gradle.jvmargs=--add-opens java.base/java.io=ALL-UNNAMED
+```
+
 ### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB
 
 ```bash
