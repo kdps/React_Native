@@ -34,8 +34,6 @@ append to .babelrc or babel.config.js
 distributionUrl => gradle-7.6-all.zip
 ```
 
------
-
 ### 'RNTimePicker' could not be found
 ----
 
