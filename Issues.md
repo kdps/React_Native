@@ -1,3 +1,11 @@
+# M1, M2 (ARM)
+
+### Change Architecture to x86/64
+
+```bash
+arch -x86_64 /bin/zsh
+```
+
 # Sentry
 
 Cannot remove sentry fucking shit
