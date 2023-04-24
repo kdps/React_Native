@@ -36,6 +36,12 @@ append to .babelrc or babel.config.js
 
 # Android
 
+### Keyboard auto hide / Keyboard closes immediately once opened in TextInput
+
+```xml
+android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+```
+
 ### BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61
 
 ```bash
