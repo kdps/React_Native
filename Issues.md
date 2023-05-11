@@ -36,11 +36,51 @@
 
 ## [IOS](#3.1)   
 
+### [GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C](#3.2)   
+
+### [Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'](#3.3)      
+
+### [“React/RCTEventDispatcherProtocol.h“ file not found](#3.4)      
+
+### [Error for only archive](#3.5)      
+
+### [cocoapods could not find compatible versions for pod reactcommon/callinvoker](#3.6)      
+
+### [Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands](#3.7)      
+
+### ['React/RCTBridgeModule.h' file not found](#3.8)      
+
+### [IOS 14 Firebase Crash](#3.9)      
+
+### [database is locked Possibly there are two concurrent builds running in the same filesystem location.](#3.10)      
+
+### [duplicate symbols for architecture arm64](#3.11)      
+
+### [Couldn't create workspace arena folder '~': Unable to write to info file '~'](#3.12)      
+
+### [SIGABRT RCTModalHostViewController](#3.13)      
+
+### [XCode 14 Image not showing](#3.14)       
+
+### [react-native-modal-datetime-picker](#3.15)       
+
+### [Stored properties cannot be marked potentially unavailable with '@available'](#3.16)   
+
+
+
+
+
 
 
 # Sentry
 
 Cannot remove sentry fucking shit
+
+
+
+
+
+
 
 # Javascript <a id='0.1'></a>
 
@@ -253,9 +293,29 @@ https://github.com/facebook/react-native-fbsdk/issues/567
 
 npx jetify
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # IOS <a id='3.1'></a>
 
-### GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C
+### GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C <a id='3.2'></a>
 
 ```c
 GDTCORNetworkType GDTCORNetworkTypeMessage() {
@@ -267,7 +327,7 @@ to
 GDTCORNetworkType GDTCORNetworkTypeMessage(void) {
 ```
 
-### Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'
+### Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection' <a id='3.3'></a>
 
 Append to extension
 
@@ -278,19 +338,19 @@ public func replaceSubrange<C>(_ subrange: Swift.Range<Int>, with newElements: C
 }
 ```
 
-### “React/RCTEventDispatcherProtocol.h“ file not found
+### “React/RCTEventDispatcherProtocol.h“ file not found <a id='3.4'></a>
 ----
 
 ```ObjectiveC
 "React/RCTEventDispatcherProtocol.h" => "React/RCTEventDispatcher.h"
 ```
 
-### Error for only archive
+### Error for only archive <a id='3.5'></a>
 ----
 
 Target - Build Settings - Architectures - Build Active Architecture Only [Release] YES
 
-### cocoapods could not find compatible versions for pod reactcommon/callinvoker
+### cocoapods could not find compatible versions for pod reactcommon/callinvoker <a id='3.6'></a>
 ----
 
 https://fantashit.com/rn-0-62-pod-repo-update-error/
@@ -305,7 +365,7 @@ to
 pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
 ```
 
-### Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands
+### Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands <a id='3.7'></a>
 
 ```cpp
 node->getLayout().hadOverflow() |
@@ -317,7 +377,7 @@ to
 node->getLayout().hadOverflow() ||
 ```
 
-### 'React/RCTBridgeModule.h' file not found
+### 'React/RCTBridgeModule.h' file not found <a id='3.8'></a>
 ----
 
 https://stackoverflow.com/questions/65696412/react-native-ios-build-error-react-rctbridgemodule-h-file-not-found-with-react
@@ -334,7 +394,7 @@ Click on 'add' or a 'plus' button. Find React (should be in the Pods category) a
 Finally, make sure all boxes are ticked for React, and place it at the top of the list.
 ```
 
-### IOS 14 Firebase Crash
+### IOS 14 Firebase Crash <a id='3.9'></a>
 ----
 
 https://github.com/invertase/react-native-firebase/issues/3944
@@ -363,31 +423,24 @@ RCT_EXPORT_METHOD(complete:(NSString*)handlerKey fetchResult:(UIBackgroundFetchR
 }
 ````
 
-### database is locked Possibly there are two concurrent builds running in the same filesystem location.
+### database is locked Possibly there are two concurrent builds running in the same filesystem location. <a id='3.10'></a>
 ----
 
 Clean bulid folder
 
-### duplicate symbols for architecture arm64
+### duplicate symbols for architecture arm64 <a id='3.11'></a>
 ----
 
 pod deintegrate
 
 pod install
 
-### Couldn't create workspace arena folder '~': Unable to write to info file '~'.
+### Couldn't create workspace arena folder '~': Unable to write to info file '~'. <a id='3.12'></a>
 ----
 
 Disk space is not enought
 
-### Firebase
-----
-
-```Text
-Just realized that according to the docs, these functions only work when sending and receiving notifications via FCM, which is why you aren't seeing these work when sending them manually through APNS. This package will allow for leverage getInitialNotification and the other function: 
-```
-
-### SIGABRT RCTModalHostViewController
+### SIGABRT RCTModalHostViewController <a id='3.13'></a>
 ----
 
 ```Text
@@ -397,25 +450,17 @@ SIGABRT: -[MTLDebugBuffer newTextureWithDescriptor:offset:bytesPerRow:] > -[MTLD
 
 check componentWillUnmount event
 
-### XCode 14 Image not showing
+### XCode 14 Image not showing <a id='3.14'></a>
 ----
 
 https://github.com/hsource/react-native/pull/2
 
-### react-native-modal-datetime-picker
+### react-native-modal-datetime-picker <a id='3.15'></a>
 ----
 
 https://github.com/mmazzarolo/react-native-modal-datetime-picker/pull/474
 
-# M1, M2 (ARM)
-
-### Change Architecture to x86/64
-
-```bash
-arch -x86_64 /bin/zsh
-```
-
-### Stored properties cannot be marked potentially unavailable with '@available'
+### Stored properties cannot be marked potentially unavailable with '@available' <a id='3.15'></a>
 
 https://github.com/crossplatformkorea/react-native-kakao-login/issues/326
 
@@ -430,4 +475,39 @@ public lazy var presentationContextProvider: Any? = DefaultPresentationContextPr
 public var presentationContextProvider: Any?
 
 if #available(iOS 13.0, *) { self.presentationContextProvider = DefaultPresentationContextProvider() } else { self.presentationContextProvider = nil }
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+# M1, M2 (ARM)
+
+### Change Architecture to x86/64 
+
+```bash
+arch -x86_64 /bin/zsh
+```
+
+
+
+
+
+
+
+
+
+### Firebase 
+----
+
+```Text
+Just realized that according to the docs, these functions only work when sending and receiving notifications via FCM, which is why you aren't seeing these work when sending them manually through APNS. This package will allow for leverage getInitialNotification and the other function: 
 ```
