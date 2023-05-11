@@ -14,9 +14,9 @@
 
 ## Issues
 
-## [Javascript]
+## Javascript
 
-## [Android]
+## Android
 
 ###### [Keyboard auto hide / Keyboard closes immediately once opened in TextInput](#1.2)   
 
@@ -48,7 +48,7 @@
 
 ###### [annotation does not exist](#1.16)   
 
-## [IOS]
+## IOS
 
 ###### [GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C](#3.2)   
 
