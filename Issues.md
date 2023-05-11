@@ -223,6 +223,17 @@ npx jetify
 
 # IOS
 
+### Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'
+
+Append to extension
+
+```swift
+public func replaceSubrange<C>(_ subrange: Swift.Range<Int>, with newElements: C) where C : Collection, ChartDataEntry == C.Element {
+    entries.replaceSubrange(subrange, with: newElements)
+    notifyDataSetChanged()
+}
+```
+
 ### “React/RCTEventDispatcherProtocol.h“ file not found
 ----
 
