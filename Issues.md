@@ -223,6 +223,18 @@ npx jetify
 
 # IOS
 
+### GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C
+
+```c
+GDTCORNetworkType GDTCORNetworkTypeMessage() {
+```
+
+to
+
+```c
+GDTCORNetworkType GDTCORNetworkTypeMessage(void) {
+```
+
 ### Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'
 
 Append to extension
