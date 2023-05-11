@@ -1,10 +1,40 @@
 # Issues Bookmark
 
-### [Javascript](#0.1)   
+## [Javascript](#0.1)   
 
-### [Android](#1.1)   
+## [Android](#1.1)   
 
-### [IOS](#3.1)   
+### [Keyboard auto hide / Keyboard closes immediately once opened in TextInput](#1.2)   
+
+### [BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61](#1.3)   
+
+### ['RNTimePicker' could not be found](#1.4)   
+
+### [Unresolved reference `resolveView` (Vision-Camera)](#1.5)  
+
+### [Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.](#1.6)  
+
+### [Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module](#1.7)  
+
+### [CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB](#1.8)   
+
+### [Could not find me.relex:photodraweeview:1.1.3](#1.9)   
+
+### [Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native](#1.10)   
+
+### [Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty](#1.11)   
+
+### [React Native : Error: Duplicate resources - Android](#1.12)   
+
+### [Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference](#1.13)   
+
+### [Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java](#1.14)   
+
+### [Native module ~~ tried to override ~~](#1.15)   
+
+### [annotation does not exist](#1.16)   
+
+## [IOS](#3.1)   
 
 
 
@@ -38,24 +68,24 @@ append to .babelrc or babel.config.js
 
 # Android <a id='1.1'></a>
 
-### Keyboard auto hide / Keyboard closes immediately once opened in TextInput
+### Keyboard auto hide / Keyboard closes immediately once opened in TextInput <a id='1.2'></a>
 
 ```xml
 android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
 ```
 
-### BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61
+### BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61 <a id='1.3'></a>
 
 ```bash
 distributionUrl => gradle-7.6-all.zip
 ```
 
-### 'RNTimePicker' could not be found
+### 'RNTimePicker' could not be found <a id='1.4'></a>
 ----
 
 remove fucking `react-native-modal-datetime-picker` package
 
-### Unresolved reference `resolveView` (Vision-Camera)
+### Unresolved reference `resolveView` (Vision-Camera) <a id='1.5'></a>
 ----
 
 findCameraView
@@ -114,7 +144,7 @@ fun findCameraViewById(viewId: Int): CameraView {
 }
 ```
 
-### Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.
+### Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0. <a id='1.6'></a>
 ----
 
 Update your kotlin version 1.6.0+
@@ -122,7 +152,7 @@ Update your kotlin version 1.6.0+
 classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0+"
 ```
 
-### Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module 
+### Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module <a id='1.7'></a>
 ----
 
 gradle-wrapper.properties
@@ -131,7 +161,7 @@ gradle-wrapper.properties
 org.gradle.jvmargs=--add-opens java.base/java.io=ALL-UNNAMED
 ```
 
-### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB
+### CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB <a id='1.8'></a>
 ----
 
 ```bash
@@ -142,7 +172,7 @@ cd android
 ./gradlew assembleDebug
 ```
 
-### Could not find me.relex:photodraweeview:1.1.3
+### Could not find me.relex:photodraweeview:1.1.3 <a id='1.9'></a>
 ----
 
 ```bash
@@ -157,7 +187,7 @@ configurations.all {
 }
 ```
 
-### Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native
+### Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native <a id='1.10'></a>
 ----
 
 ```bash
@@ -168,14 +198,14 @@ nvm install 16.13.0
 nvm alias default 16.13.0
 ```
 
-### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty
+### Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty <a id='1.11'></a>
 ----
 
 Project Structure > Project > Change version to 4.2.2 
 
 https://developer.android.com/studio/releases/gradle-plugin?hl=ko
 
-### React Native : Error: Duplicate resources - Android
+### React Native : Error: Duplicate resources - Android <a id='1.12'></a>
 ----
 
 ```bash
@@ -184,7 +214,7 @@ rm -rf ./android/app/src/main/res/drawable-*
 rm -rf ./android/app/src/main/res/raw
 ```
 
-### Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference
+### Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference <a id='1.13'></a>
 ----
 
 https://github.com/react-native-maps/react-native-maps/issues/2924
@@ -197,7 +227,7 @@ It worked for me.
 FYI, I didn't eject my project yet.
 ```
 
-### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java
+### Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java <a id='1.14'></a>
 ----
 
 Package.json
@@ -211,12 +241,12 @@ Async Storage has moved to new organization: https://github.com/react-native-asy
 "@react-native-community/async-storage": "1.11.0", <-- Remove it
 ```
 
-### Native module ~~ tried to override ~~
+### Native module ~~ tried to override ~~ <a id='1.15'></a>
 ----
 
 https://stackoverflow.com/questions/41846452/how-to-set-canoverrideexistingmodule-true-in-react-native-for-android-apps/63438974#63438974
 
-### annotation does not exist 
+### annotation does not exist <a id='1.16'></a>
 ----
 
 https://github.com/facebook/react-native-fbsdk/issues/567
@@ -383,4 +413,21 @@ https://github.com/mmazzarolo/react-native-modal-datetime-picker/pull/474
 
 ```bash
 arch -x86_64 /bin/zsh
+```
+
+### Stored properties cannot be marked potentially unavailable with '@available'
+
+https://github.com/crossplatformkorea/react-native-kakao-login/issues/326
+
+remove below code
+
+```swift
+@available(iOS 13.0, *)
+public lazy var presentationContextProvider: Any? = DefaultPresentationContextProvider()
+```
+
+```swift
+public var presentationContextProvider: Any?
+
+if #available(iOS 13.0, *) { self.presentationContextProvider = DefaultPresentationContextProvider() } else { self.presentationContextProvider = nil }
 ```
