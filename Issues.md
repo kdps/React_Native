@@ -4,65 +4,65 @@
 
 ## [Android](#1.1)   
 
-### [Keyboard auto hide / Keyboard closes immediately once opened in TextInput](#1.2)   
+###### [Keyboard auto hide / Keyboard closes immediately once opened in TextInput](#1.2)   
 
-### [BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61](#1.3)   
+###### [BUG! exception in phase 'semantic analysis' in source unit '_BuildScript_' Unsupported class file major version 61](#1.3)   
 
-### ['RNTimePicker' could not be found](#1.4)   
+###### ['RNTimePicker' could not be found](#1.4)   
 
-### [Unresolved reference `resolveView` (Vision-Camera)](#1.5)  
+###### [Unresolved reference `resolveView` (Vision-Camera)](#1.5)  
 
-### [Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.](#1.6)  
+###### [Module was compiled with an incompatible version of Kotlin. The binary version of its metadata is 1.6.0, expected version is 1.4.0.](#1.6)  
 
-### [Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module](#1.7)  
+###### [Unable to make field private final java.lang.String java.io.File.path accessible: module java.base does not "opens java.io" to unnamed module](#1.7)  
 
-### [CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB](#1.8)   
+###### [CMake Error: The following variables are used in this project, but they are set to NOTFOUND. FBJNI_LIB, FOLLY_JSON_LIB, JSI_LIB](#1.8)   
 
-### [Could not find me.relex:photodraweeview:1.1.3](#1.9)   
+###### [Could not find me.relex:photodraweeview:1.1.3](#1.9)   
 
-### [Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native](#1.10)   
+###### [Failed to construct transformer: Error: error:0308010C:digital envelope routines::unsupported React Native](#1.10)   
 
-### [Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty](#1.11)   
+###### [Failed to notify project evaluation listener > org.gradle.api.file.ProjectLayout.fileProperty](#1.11)   
 
-### [React Native : Error: Duplicate resources - Android](#1.12)   
+###### [React Native : Error: Duplicate resources - Android](#1.12)   
 
-### [Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference](#1.13)   
+###### [Attempt to invoke virtual method 'android.graphics.drawable.Drawable android.graphics.drawable.Drawable$ConstantState.newDrawable(android.content.res.Resources)' on a null object reference](#1.13)   
 
-### [Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java](#1.14)   
+###### [Native module RNC_AsyncSQLiteDBStorage tried to override AsyncStorageModule. Chekc the getPackages() method in MainApplication.java](#1.14)   
 
-### [Native module ~~ tried to override ~~](#1.15)   
+###### [Native module ~~ tried to override ~~](#1.15)   
 
-### [annotation does not exist](#1.16)   
+###### [annotation does not exist](#1.16)   
 
 ## [IOS](#3.1)   
 
-### [GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C](#3.2)   
+###### [GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C](#3.2)   
 
-### [Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'](#3.3)      
+###### [Type 'ChartDataSet' does not conform to protocol 'RangeReplaceableCollection'](#3.3)      
 
-### [“React/RCTEventDispatcherProtocol.h“ file not found](#3.4)      
+###### [“React/RCTEventDispatcherProtocol.h“ file not found](#3.4)      
 
-### [Error for only archive](#3.5)      
+###### [Error for only archive](#3.5)      
 
-### [cocoapods could not find compatible versions for pod reactcommon/callinvoker](#3.6)      
+###### [cocoapods could not find compatible versions for pod reactcommon/callinvoker](#3.6)      
 
-### [Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands](#3.7)      
+###### [Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands](#3.7)      
 
-### ['React/RCTBridgeModule.h' file not found](#3.8)      
+###### ['React/RCTBridgeModule.h' file not found](#3.8)      
 
-### [IOS 14 Firebase Crash](#3.9)      
+###### [IOS 14 Firebase Crash](#3.9)      
 
-### [database is locked Possibly there are two concurrent builds running in the same filesystem location.](#3.10)      
+###### [database is locked Possibly there are two concurrent builds running in the same filesystem location.](#3.10)      
 
-### [duplicate symbols for architecture arm64](#3.11)      
+###### [duplicate symbols for architecture arm64](#3.11)      
 
-### [Couldn't create workspace arena folder '~': Unable to write to info file '~'](#3.12)      
+###### [Couldn't create workspace arena folder '~': Unable to write to info file '~'](#3.12)      
 
-### [SIGABRT RCTModalHostViewController](#3.13)      
+###### [SIGABRT RCTModalHostViewController](#3.13)      
 
-### [XCode 14 Image not showing](#3.14)       
+###### [XCode 14 Image not showing](#3.14)       
 
-### [react-native-modal-datetime-picker](#3.15)       
+###### [react-native-modal-datetime-picker](#3.15)       
 
 ### [Stored properties cannot be marked potentially unavailable with '@available'](#3.16)   
 
