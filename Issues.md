@@ -250,6 +250,18 @@ to
 pod 'React-callinvoker', :path => "../node_modules/react-native/ReactCommon/callinvoker"
 ```
 
+### Yoga.cpp:2285:9 Use of bitwise '|' with boolean operands
+
+```cpp
+node->getLayout().hadOverflow() |
+```
+
+to
+
+```cpp
+node->getLayout().hadOverflow() ||
+```
+
 ### 'React/RCTBridgeModule.h' file not found
 ----
 
