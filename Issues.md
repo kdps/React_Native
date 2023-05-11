@@ -1,16 +1,16 @@
-# M1, M2 (ARM)
+# [Javascript](#0.1)   
 
-### Change Architecture to x86/64
+# [Android](#1.1)   
 
-```bash
-arch -x86_64 /bin/zsh
-```
+# [IOS](#3.1)   
+
+
 
 # Sentry
 
 Cannot remove sentry fucking shit
 
-# Javascript
+# Javascript <a id='0.1'></a>
 
 ### Support for the experimental syntax 'decorators-legacy' isn't currently enabled
 ---
@@ -34,7 +34,7 @@ append to .babelrc or babel.config.js
 }
 ```
 
-# Android
+# Android <a id='1.1'></a>
 
 ### Keyboard auto hide / Keyboard closes immediately once opened in TextInput
 
@@ -221,7 +221,7 @@ https://github.com/facebook/react-native-fbsdk/issues/567
 
 npx jetify
 
-# IOS
+# IOS <a id='3.1'></a>
 
 ### GDTCORPlatform.m:87:43 A function declaration without a prototype is deprecated in all versions of C
 
@@ -374,3 +374,11 @@ https://github.com/hsource/react-native/pull/2
 ----
 
 https://github.com/mmazzarolo/react-native-modal-datetime-picker/pull/474
+
+# M1, M2 (ARM)
+
+### Change Architecture to x86/64
+
+```bash
+arch -x86_64 /bin/zsh
+```
