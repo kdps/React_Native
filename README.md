@@ -10,6 +10,8 @@
 
 ###### [Make Bundle](#2.3)
 
+###### [Commands](#2.4)
+
 ## Issues
 
 ## [Javascript](#0.1)   
@@ -587,4 +589,25 @@ react-native bundle --platform android --dev false --entry-file index.js --bundl
 NEW
 ```bash
 react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/
+```
+
+# Commands <a id='2.4'></a>
+
+Run in Platform
+
+```bash
+npx react-native run-ios
+npx react-native run-android
+```
+
+Run with legacy openssl (openssl-legacy-provider)
+
+```bash
+set NODE_OPTIONS=--openssl-legacy-provider && react-native run-ios
+set NODE_OPTIONS=--openssl-legacy-provider && react-native run-android
+```
+
+Run in Device
+```bash
+npx react-native run-ios --simulator=\"iPhone 6s\"
 ```
